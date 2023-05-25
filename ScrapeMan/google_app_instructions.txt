@@ -1,0 +1,6 @@
+To create a Google App Password:
+1. Make sure you have 2-Step Verification turned on for your Google Account.
+2. Navigate to https://myaccount.google.com/apppasswords
+3. At the bottom, select 'Mail' and 'This computer', then click 'Generate'.
+4. Copy the 16-character password (without spaces) that's generated.
+5. Enter this in the 'Google App Password' field in 'config.ini'.

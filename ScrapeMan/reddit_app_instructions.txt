@@ -1,0 +1,14 @@
+To create a Reddit app:
+1. Log in to your Reddit account.
+2. Navigate to https://www.reddit.com/prefs/apps
+3. Scroll down to the 'Developed Applications' section and click 'Create App' or 'Create Another App'.
+4. Fill in the application details:
+    - 'name' can be anything (it's just for your reference).
+    - 'App type' should be 'script'.
+    - 'description' can be left blank.
+    - 'about url' can be left blank.
+    - 'redirect uri' should be http://localhost:8000 (this is a placeholder and won't be used).
+    - 'permissions' should be 'read'.
+5. Click 'Create app'.
+After creating the application, Reddit will provide the 'client_id' and 'client_secret'.
+Enter these in the 'ClientID' and 'ClientSecret' fields in 'config.ini'.
